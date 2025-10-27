@@ -1,108 +1,106 @@
-#include <fstream>
-#include <iostream> 
-#include <string>
+// Include necessary libraries for file handling, input/output, and string manipulation
+#include <fstream>  // For reading and writing files
+#include <iostream> // For input and output (cin, cout)
+#include <string>   // For using string data type
+#include "registration.h"   // Custom header for registration-related functions
+#include "login.h"          // Custom header for login-related functions
 using namespace std;
 
+// Structure to store user credentials such as EmployeeID, username, and password
 struct userCredentials {
     string EmployeeID;
     string username;
     string password;
 };
 
-void loginUser();
-void registerUser();
+
+// Function declarations (prototypes)
+// These functions will be defined later in the program or in other files
+void loginUser();    // Handles the login process
+void registerUser();    // Handles user registration
+void forgotUser();  // Handles password recovery
 
 int main() {
 
+    // Variable to store user's menu choice
+    int c;
+    // Displaying the main menu interface
+    cout<<"\t\t\t__________________________________________________________\n\n\n";
+    cout<<"\t\t\t                   WELCOME TO LOGIN PAGE                   \n\n\n";
+    cout<<"\t\t\t        |  FRONTROOMS SCHEDULING MANAGEMENT SYSTEM  |        \n\n";
+    cout<<"\t\t\t______________________     MENU    _______________________\n\n";
+    cout<<"                                                                 \n\n";
+
+    // Display options for the user to choose
+    cout<<"\t| Press 1 to LOG IN                            |"<<endl;     
+    cout<<"\t| Press 2 to REGISTER                          |"<<endl;
+    cout<<"\t| Press 3 to IF YOU FORGOT YOUR PASSWORD       |"<<endl;  
+    cout << "\t| Press 4 to EXIT                              |" << endl;
     
+    // Ask the user to enter their choice
+    cout<<"\n\t\t\t Please enter your choice :   ";       
+    cin>>c;   
+     
+    // Switch statement to handle the user’s choice
+    switch(c)
+    {
+        case 1:
+            loginUser();    // Calls the login function
+            break;
+        case 2:
+            registerUser(); // Calls the registration function
+            break;
+        case 3:
+            forgotUser();   // Calls the forgot password function
+            break;
+        case 4:
+            cout<<"\t\t\t Thankyou! \n\n";  // Exit option
+            break;
+           
+
+
+    }
+
+    
+
+
     return 0;
 }
 
-void loginUser() {
 
-    userCredentials u;
+// Function definition: forgotUser()
+// This function helps the user retrieve their forgotten password or credentials
+void forgotUser() {
+    string searchUsername;  // Variable to store the username being searched
+    cout << "Enter your username to recover password: ";
+    cin >> searchUsername;  // User inputs their username
 
+    // Open the text file containing stored user credentials
     ifstream inFile("USER_CRED.txt");
-
-    if (!inFile.is_open()) {
-        cout << "Error opening file1" << endl;
+    if (!inFile.is_open()) {    // Check if the file was opened successfully
+        cout << "Error opening file2" << endl;
+        return; 
     }
 
-    cout << "Please enter your Employee ID: ";
-    cin >> u.EmployeeID;
+    string line;     // Variable to store each line read from the file
+    bool found = false; // Flag to indicate if the username was found
 
-    cout << "Please enter your username: ";
-    cin >> u.username;
-
-    cout << "Please enter your password: ";
-    cin >> u.password;
-
-    string line;
-
+     // Loop through each line in the file
     while (getline(inFile, line)) {
-        if (line.find(u.EmployeeID) == string::npos) {
-            cout << "Employee ID already exists. Please contact admin." << endl;
-            inFile.close();
-        }
-
-        if (line.find(u.username) == string::npos) {
-            cout << "Username already exists. Please choose a different username." << endl;
-            inFile.close();
-        }
-
-        if (line.find(u.password) == string::npos) {
-            cout << "Password"
+        // Check if the username exists in the current line
+        if (line.find(searchUsername) != string::npos) {
+            cout << "Credentials found: " << line << endl;  // Display found credentials
+            found = true;
+            break;  // Exit the loop once found
         }
     }
 
+    // If username is not found in the file
+    if (!found) {
+        cout << "Username not found. Please register first." << endl;
+    }
+
+    inFile.close(); // Close the file after reading
 }
-
-
-void registerUser() {
-
-    userCredentials u;
-
-    ifstream inFile("USER_CRED.txt");
-
-    if (!inFile.is_open()) {
-        cout << "Error opening file1" << endl;
-    }
-
-    cout << "Please enter your Employee ID: ";
-    cin >> u.EmployeeID;
-
-    cout << "Please enter your username: ";
-    cin >> u.username;
-
-    cout << "Please enter your password: ";
-    cin >> u.password;
-
-    string line;
-
-    while (getline(inFile, line)) {
-        if (line.find(u.EmployeeID) != string::npos) {
-            cout << "Employee ID already exists. Please contact admin." << endl;
-            inFile.close();
-        }
-
-        if (line.find(u.username) != string::npos) {
-            cout << "Username already exists. Please choose a different username." << endl;
-            inFile.close();
-        }
-    }
-
-    inFile.close();
-
-    ofstream outFile("USER_CRED.txt", fstream::app);
-
-    outFile << "Employee ID: " << u.EmployeeID << endl;
-    outFile << "Username: " << u.username << endl;
-    outFile << "Password: " << u.password << endl;
-    outFile << endl << endl;
-
-    outFile.close();
-
-    cout << "Registered successfully." << endl;
-}
-
-
+    
+    

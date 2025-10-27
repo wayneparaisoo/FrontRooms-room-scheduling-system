@@ -124,6 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FRONTROOM.cpp" />
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="registration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="login.h" />
+    <ClInclude Include="registration.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
