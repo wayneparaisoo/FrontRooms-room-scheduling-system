@@ -2,5 +2,6 @@
 #define LOGIN_H
 
 void loginUser();
+extern int successCount;
 
 #endif

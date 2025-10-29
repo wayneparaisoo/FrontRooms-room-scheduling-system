@@ -10,6 +10,8 @@ struct userCredentials {
     string password;
 };
 
+
+
 void loginUser() {
 
     userCredentials u;
@@ -49,13 +51,12 @@ void loginUser() {
             inFile.close();
         }
     }
-        if (successCount == 0) {
+        if (successCount < 3) {
 			cout << "Login unsuccessful. Please check your credentials." << endl;
 		}
         else if (successCount == 3) {
             cout << "Login successful. Welcome " << u.username << "!" << endl;
 		}
 
-        return;
     
 }
