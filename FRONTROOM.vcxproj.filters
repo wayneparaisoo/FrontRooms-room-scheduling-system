@@ -24,12 +24,18 @@
     <ClCompile Include="login.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="forgotuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="registration.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="login.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forgotuser.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

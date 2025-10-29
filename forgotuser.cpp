@@ -1,4 +1,6 @@
+#include <fstream>
 #include <iostream>
+#include <string>
 #include "forgotuser.h"
 using namespace std;
 
@@ -35,6 +37,4 @@ void forgotUser() {
     }
 
     inFile.close(); // Close the file after reading
-}
-	
 }

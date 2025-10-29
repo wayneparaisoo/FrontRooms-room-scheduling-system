@@ -4,6 +4,7 @@
 #include <string>   // For using string data type
 #include "registration.h"   // Custom header for registration-related functions
 #include "login.h"          // Custom header for login-related functions
+#include "forgotuser.h"
 using namespace std;
 
 // Structure to store user credentials such as EmployeeID, username, and password
@@ -46,9 +47,6 @@ int main() {
     {
         case 1:
             loginUser();    // Calls the login function
-            if (successCount == 3) {
-            	cout << successCount;
-			}
             break;
         case 2:
             registerUser(); // Calls the registration function
