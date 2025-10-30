@@ -5,6 +5,7 @@
 #include "registration.h"   // Custom header for registration-related functions
 #include "login.h"          // Custom header for login-related functions
 #include "forgotuser.h"
+#include "launch.h"        // Custom header for launch-related functions
 using namespace std;
 
 // Structure to store user credentials such as EmployeeID, username, and password
@@ -51,6 +52,9 @@ int main() {
         case 1:
             
             loginUser();    // Calls the login function
+            if (successCount == 3) {
+                launchApp(); // Launch the application if login is successful
+			}
             break;
         case 2:
             registerUser(); // Calls the registration function

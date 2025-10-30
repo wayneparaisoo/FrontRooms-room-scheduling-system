@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\",
+  "WorkspaceRootPath": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|solutionrelative:launch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|solutionrelative:login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|solutionrelative:launch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|solutionrelative:FRONTROOM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{772CE34B-AEA6-459F-A69C-AA9A76ED5DB6}|FRONTROOM.vcxproj|solutionrelative:login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +42,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launch.h",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.h",
+              "RelativeDocumentMoniker": "launch.h",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.h",
+              "RelativeToolTip": "launch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T18:00:45.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "launch.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp",
+              "RelativeDocumentMoniker": "launch.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp",
+              "RelativeToolTip": "launch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T17:58:06.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "login.h",
-              "DocumentMoniker": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.h",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h",
               "RelativeDocumentMoniker": "login.h",
-              "ToolTip": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.h",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h",
               "RelativeToolTip": "login.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-30T15:34:56.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "login.cpp",
-              "DocumentMoniker": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp",
               "RelativeDocumentMoniker": "login.cpp",
-              "ToolTip": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\login.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp",
               "RelativeToolTip": "login.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAAAlwDoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-30T15:34:49.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FRONTROOM.cpp",
-              "DocumentMoniker": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
               "RelativeDocumentMoniker": "FRONTROOM.cpp",
-              "ToolTip": "D:\\website\\assignments\\Frontrooms files\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
               "RelativeToolTip": "FRONTROOM.cpp",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-29T16:26:38.072Z",
               "EditorCaption": ""

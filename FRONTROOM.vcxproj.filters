@@ -27,6 +27,9 @@
     <ClCompile Include="forgotuser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="launch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="registration.h">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="forgotuser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="launch.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

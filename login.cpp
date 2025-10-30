@@ -2,6 +2,7 @@
 #include <iostream> 
 #include <string>
 #include "login.h"
+#include "launch.h"
 using namespace std;
 
 struct userCredentials {
@@ -56,6 +57,7 @@ void loginUser() {
 		}
         else if (successCount == 3) {
             cout << "Login successful. Welcome " << u.username << "!" << endl;
+			launchApp();
 		}
 
         return;

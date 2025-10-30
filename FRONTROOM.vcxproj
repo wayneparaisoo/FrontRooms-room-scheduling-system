@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClCompile Include="forgotuser.cpp" />
     <ClCompile Include="FRONTROOM.cpp" />
+    <ClCompile Include="launch.cpp" />
     <ClCompile Include="login.cpp" />
     <ClCompile Include="registration.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="forgotuser.h" />
+    <ClInclude Include="launch.h" />
     <ClInclude Include="login.h" />
     <ClInclude Include="registration.h" />
   </ItemGroup>
