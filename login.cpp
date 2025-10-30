@@ -58,5 +58,5 @@ void loginUser() {
             cout << "Login successful. Welcome " << u.username << "!" << endl;
 		}
 
-    
+        return;
 }

@@ -25,6 +25,7 @@ int main() {
 
     // Variable to store user's menu choice
     int c;
+
     // Displaying the main menu interface
     cout<<"\t\t\t__________________________________________________________\n\n\n";
     cout<<"\t\t\t                   WELCOME TO LOGIN PAGE                   \n\n\n";
@@ -40,12 +41,15 @@ int main() {
     
     // Ask the user to enter their choice
     cout<<"\n\t\t\t Please enter your choice :   ";       
-    cin>>c;   
-     
+    cin>>c;  
+
+	int successCount = 0; // Initialize successCount to 0 before any operation
+
     // Switch statement to handle the user’s choice
     switch(c)
     {
         case 1:
+            
             loginUser();    // Calls the login function
             break;
         case 2:
