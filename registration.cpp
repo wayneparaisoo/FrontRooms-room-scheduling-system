@@ -4,24 +4,29 @@
 #include "registration.h"
 using namespace std;
 
+// Define a structure to hold user credentials
 struct userCredentials {
-        string EmployeeID;
+        string employeeID;
         string username;
         string password;
     };
 
+// function to register a new user
 void registerUser() {
   
     userCredentials u;
 
+    // open the file containing user credentials
     ifstream inFile("USER_CRED.txt");
 
+    // check if the file opened successfully
     if (!inFile.is_open()) {
         cout << "Error opening file1" << endl;
     }
 
+    // prompt user for registration details
     cout << "Please enter your Employee ID: ";
-    cin >> u.EmployeeID;
+    cin >> u.employeeID;
 
     cout << "Please enter your username: ";
     cin >> u.username;
@@ -29,16 +34,19 @@ void registerUser() {
     cout << "Please enter your password: ";
     cin >> u.password;
 
+    // check for existing Employee ID or username
     string line;
 	int count = 0;
 
     while (getline(inFile, line)) {
-        if (line.find(u.EmployeeID) != string::npos) {
+        // check for existing Employee ID or username
+        if (line.find(u.employeeID) != string::npos) {
             cout << "Employee ID already exists. Please contact admin." << endl;
 			count++;
             inFile.close();
         }
 
+        // check for existing username
         if (line.find(u.username) != string::npos) {
             cout << "Username already exists. Please choose a different username." << endl;
             count++;
@@ -46,19 +54,24 @@ void registerUser() {
         }
     }
 
+    // close the input file
     inFile.close();
 
+    // if no duplicates found, append the new user credentials to the file
     if (count == 0) {
 
+        // open the file in append mode
         ofstream outFile("USER_CRED.txt", fstream::app);
-
-        outFile << "Employee ID: " << u.EmployeeID << endl;
+        
+        // record the new user credentials
+        outFile << "Employee ID: " << u.employeeID << endl;
         outFile << "Username: " << u.username << endl;
         outFile << "Password: " << u.password << endl;
         outFile << endl << endl;
 
         outFile.close();
 
+        // confirm successful registration
         cout << "Registered successfully." << endl;
         return;
 	}

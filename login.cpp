@@ -1,30 +1,35 @@
-#include <fstream>
 #include <iostream> 
+#include <fstream>
 #include <string>
 #include "login.h"
 #include "launch.h"
 using namespace std;
 
+ // define a structure to hold user credentials
 struct userCredentials {
-    string EmployeeID;
+    string employeeID;
     string username;
     string password;
 };
 
 
-
+// function to handle user login
 void loginUser() {
 
+    // create an instance of userCredentials to store input
     userCredentials u;
 
+    // open the file containing user credentials
     ifstream inFile("USER_CRED.txt");
 
+    // check if the file opened successfully
     if (!inFile.is_open()) {
         cout << "Error opening file!" << endl;
     }
 
+    // prompt user for their credentials
     cout << "Please enter your Employee ID: ";
-    cin >> u.EmployeeID;
+    cin >> u.employeeID;
 
     cout << "Please enter your username: ";
     cin >> u.username;
@@ -32,12 +37,13 @@ void loginUser() {
     cout << "Please enter your password: ";
     cin >> u.password;
 
+    // read through the file and check for matching credentials
     string line;
     int successCount = 0;
 
     while (getline(inFile, line)) {
 
-        if (line.find(u.EmployeeID) != string::npos) {
+        if (line.find(u.employeeID) != string::npos) {
             successCount++;
 			
         }
@@ -52,6 +58,7 @@ void loginUser() {
             inFile.close();
         }
     }
+        // provide feedback based on the number of successful matches
         if (successCount < 3) {
 			cout << "Login unsuccessful. Please check your credentials." << endl;
 		}

@@ -23,3 +23,8 @@ Username: samu
 Password: 321
 
 
+Employee ID: 1234
+Username: jamorant
+Password: tite
+
+
