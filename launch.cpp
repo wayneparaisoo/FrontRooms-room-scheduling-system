@@ -85,4 +85,21 @@ void launchApp() {
 		}
 
 		inFile.close();
+
+		ofstream outFile("ROOMS.txt", ios::out);
+
+		string roomID;
+		cout << "Please enter the Room ID you want to reserve: ";
+		cin >> roomID;
+
+			if (line.find(roomID)) {
+				outFile << "RoomID: " << roomID << endl;
+				outFile << "ResMonth: " << r.month << endl;
+				outFile << "ResDay: " << r.day << endl;
+				outFile << "ResYear: " << r.year << endl;
+				outFile << "StartTime: " << r.startTime << endl;
+				outFile << "EndTime: " << r.endTime << endl;
+			}
+		outFile.close();
+		
 }

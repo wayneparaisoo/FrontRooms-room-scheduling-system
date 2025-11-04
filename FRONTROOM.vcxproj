@@ -135,6 +135,10 @@
     <ClInclude Include="login.h" />
     <ClInclude Include="registration.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="ROOMS.txt" />
+    <Text Include="USER_CRED.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
