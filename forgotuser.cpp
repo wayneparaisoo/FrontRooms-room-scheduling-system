@@ -21,8 +21,8 @@ void forgotUser() {
     }
 
     // Variable to store each line read from the file
-    string line;     
-
+    string line;
+    
     // Flag to indicate if the username was found
     bool found = false; 
 
@@ -32,10 +32,14 @@ void forgotUser() {
         // Check if the username exists in the current line
         if (line.find(searchUsername) != string::npos) {
 
+			cout << "Credentials found: " << endl;
             // Display found credentials
-            cout << "Credentials found: " << line << endl;  
-            found = true;
-
+            for (int i=0; i<3; i++){
+            	if (getline(inFile, line)){
+            		cout << line << endl;  
+             	   found = true;
+            }
+}
             // Exit the loop once found
             break;  
         }
