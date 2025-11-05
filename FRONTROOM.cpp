@@ -27,22 +27,37 @@ int main() {
 
     // Variable to store user's menu choice
     int c;
-
-    // Displaying the main menu interface
-    cout<<"\t\t\t_________________________________________________________\n\n\n";
-    cout<<"\t\t\t"<< setw(55) << "WELCOME TO LOGIN PAGE" << "\n\n\n";
-    cout<<"\t\t\t"<< setw(65) <<    " |  FRONTROOMS SCHEDULING MANAGEMENT SYSTEM  |        \n\n";
-    cout<<"\t\t\t______________________     MENU    _______________________\n\n";
-    cout<<"                                                                 \n\n";
-
-    // Display options for the user to choose
-    cout<<"\t|"<< setw(45) << "Press 1 to LOG IN                        |"<<endl;     
-    cout<<"\t|"<< setw(45) << "Press 2 to REGISTER                      |"<<endl;
-    cout<<"\t|"<< setw(45) << "Press 3 to IF YOU FORGOT YOUR PASSWORD   |"<<endl;  
-    cout<<"\t|"<< setw(45) << "Press 4 to EXIT                          |" << endl;
+    
+    	
+    	cout<< R"(      
+		
+ 		 _____ ____   ___  _   _ _____ ____   ___   ___  __  __ ____  
+		|  ___|  _ \ / _ \| \ | |_   _|  _ \ / _ \ / _ \|  \/  / ___| 
+		| |_  | |_) | | | |  \| | | | | |_) | | | | | | | |\/| \___ \ 
+		|  _| |  _ <| |_| | |\  | | | |  _ <| |_| | |_| | |  | |___) |
+		|_|   |_| \_\\___/|_| \_| |_| |_| \_\\___/ \___/|_|  |_|____/ 
+		
+		
+		
+		
+		)" << 'n';
+	cout << setw(150)  <<"=========================================================================================================\n";
+	cout << setw(150) <<"                                  WELCOME TO THE LOGIN PAGE                                            \n";
+	cout << setw(150) <<"=======================================================================================================\n";	
+	cout << setw(150) <<"                          FRONTROOMS SCHEDULING MANAGEMENT SYSTEM                                      \n";	
+	cout << setw(150) <<"=======================================================================================================\n";	
+    cout << setw(108.25) <<"                                     MENU\n";
+    cout << setw(155) <<"------------------------------------------------------------------------------------------------------\n"<<endl<<endl;
+    
+    cout << setw(120) <<"        |------------------------------------------------------------|\n";
+    cout << setw(155) <<"        |  Press 1  ->  LOG IN                                       |\n";
+    cout << setw(120) <<"        |  Press 2  ->  REGISTER                                     |\n";
+    cout << setw(120) <<"        |  Press 3  ->  FORGOT PASSWORD                              |\n";
+    cout << setw(120) <<"        |  Press 4  ->  EXIT                                         |\n";
+    cout << setw(120) <<"        |------------------------------------------------------------|\n"<<endl<<endl;
     
     // Ask the user to enter their choice
-    cout<<"\n\t\t\t Please enter your choice :   ";       
+    cout<< setw(100) <<" Please enter your choice :   ";       
     cin>>c;  
 
     // Switch statement to handle the user’s choice
