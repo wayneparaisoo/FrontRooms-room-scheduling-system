@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\forgotuser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:forgotuser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:launch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FRONTROOM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\forgotuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:forgotuser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FRONTROOM.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\USER_CRED.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:USER_CRED.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:registration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "forgotuser.h",
               "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\forgotuser.h",
               "RelativeDocumentMoniker": "forgotuser.h",
@@ -44,14 +72,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "forgotuser.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\forgotuser.cpp",
+              "RelativeDocumentMoniker": "forgotuser.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\forgotuser.cpp",
+              "RelativeToolTip": "forgotuser.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T17:36:35.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "registration.h",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.h",
+              "RelativeDocumentMoniker": "registration.h",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.h",
+              "RelativeToolTip": "registration.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T17:36:32.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "USER_CRED.txt",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\USER_CRED.txt",
+              "RelativeDocumentMoniker": "USER_CRED.txt",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\USER_CRED.txt",
+              "RelativeToolTip": "USER_CRED.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-06T11:43:55.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp",
+              "RelativeDocumentMoniker": "login.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.cpp",
+              "RelativeToolTip": "login.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T17:36:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FRONTROOM.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
+              "RelativeDocumentMoniker": "FRONTROOM.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.cpp",
+              "RelativeToolTip": "FRONTROOM.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T17:36:05.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login.h",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h",
+              "RelativeDocumentMoniker": "login.h",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\login.h",
+              "RelativeToolTip": "login.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T17:36:24.194Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FRONTROOM.exe",
-              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.exe",
-              "RelativeDocumentMoniker": "FRONTROOM.exe",
-              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\FRONTROOM.exe",
-              "RelativeToolTip": "FRONTROOM.exe",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
-              "WhenOpened": "2025-10-30T17:34:40.351Z"
+              "Title": "launch.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp",
+              "RelativeDocumentMoniker": "launch.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\launch.cpp",
+              "RelativeToolTip": "launch.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T12:24:38.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "registration.cpp",
+              "DocumentMoniker": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.cpp",
+              "RelativeDocumentMoniker": "registration.cpp",
+              "ToolTip": "C:\\Users\\samsam\\FrontRooms-room-scheduling-system\\registration.cpp",
+              "RelativeToolTip": "registration.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T17:36:30.553Z"
             }
           ]
         }

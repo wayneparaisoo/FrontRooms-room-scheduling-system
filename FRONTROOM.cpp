@@ -26,7 +26,7 @@ void forgotUser();      // Handles password recovery
 int main() {
 
     // Variable to store user's menu choice
-    int c;
+    int c = 0;
     
     	
     	cout<< R"(      
@@ -40,13 +40,13 @@ int main() {
 		
 		
 		
-		)" << 'n';
+		)" << '\n';
 	cout << setw(150)  <<"=========================================================================================================\n";
 	cout << setw(150) <<"                                  WELCOME TO THE LOGIN PAGE                                            \n";
 	cout << setw(150) <<"=======================================================================================================\n";	
 	cout << setw(150) <<"                          FRONTROOMS SCHEDULING MANAGEMENT SYSTEM                                      \n";	
 	cout << setw(150) <<"=======================================================================================================\n";	
-    cout << setw(108.25) <<"                                     MENU\n";
+    cout << setw(108) <<"                                     MENU\n";
     cout << setw(155) <<"------------------------------------------------------------------------------------------------------\n"<<endl<<endl;
     
     cout << setw(120) <<"        |------------------------------------------------------------|\n";
@@ -56,13 +56,17 @@ int main() {
     cout << setw(120) <<"        |  Press 4  ->  EXIT                                         |\n";
     cout << setw(120) <<"        |------------------------------------------------------------|\n"<<endl<<endl;
     
-    // Ask the user to enter their choice
-    cout<< setw(100) <<" Please enter your choice :   ";       
-    cin>>c;  
 
-    // Switch statement to handle the user’s choice
-    switch(c)
-    {
+   // loop until the user inputs 4
+    while (c != 4) {
+
+        // Ask the user to enter their choice
+        cout << setw(90) << " Please enter your choice :   ";
+        cin >> c;
+
+        // Switch statement to handle the user’s choice
+        switch (c)
+        {
         case 1:
             loginUser();    // Calls the login function
             break;
@@ -73,13 +77,13 @@ int main() {
             forgotUser();   // Calls the forgot password function
             break;
         case 4:
-            cout<<"\t\t\t Thankyou! \n\n";  // Exit option
+            cout << "\t\t\tThankyou!\n\n";  // Exit option
             break;
-           
 
 
+
+        }
     }
-
     return 0;
 }
 

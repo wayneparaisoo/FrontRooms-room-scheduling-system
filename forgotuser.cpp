@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include "forgotuser.h"
 using namespace std;
@@ -16,7 +17,7 @@ void forgotUser() {
 
     // Check if the file was opened successfully
     if (!inFile.is_open()) {    
-        cout << "Error opening file2" << endl;
+        cout << "Error opening file" << endl;
         return; 
     }
 
@@ -34,9 +35,9 @@ void forgotUser() {
 
 			cout << "Credentials found: " << endl;
             // Display found credentials
-            for (int i=0; i<3; i++){
+            for (int i=0; i<2; i++){
             	if (getline(inFile, line)){
-            		cout << line << endl;  
+            		cout << line << endl;
              	   found = true;
             }
 }

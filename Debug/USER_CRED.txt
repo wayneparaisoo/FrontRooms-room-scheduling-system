@@ -1,0 +1,30 @@
+Employee ID: triosetn
+Username: teioarsntioa
+Password: iotenarstoi
+
+
+Employee ID: test
+Username: test
+Password: test
+
+
+Employee ID: test
+Username: test
+Password: test
+
+
+Employee ID: admin1
+Username: admin1
+Password: admin1
+
+
+Employee ID: 123
+Username: samu
+Password: 321
+
+
+Employee ID: 1234
+Username: jamorant
+Password: tite
+
+
