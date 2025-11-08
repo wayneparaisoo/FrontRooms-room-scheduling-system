@@ -160,7 +160,7 @@ void launchApp() {
 
 		case 3201: {
 
-			outFile.open("3201.txt", ios::out);
+			outFile.open("3201.txt", ios::app);
 
 			if (line.find(roomID)) {
 				outFile << "RoomID: " << roomID << endl;
@@ -176,7 +176,7 @@ void launchApp() {
 
 		case 3202: {
 
-			outFile.open("3202.txt", ios::out);
+			outFile.open("3202.txt", ios::app);
 
 			if (line.find(roomID)) {
 				outFile << "RoomID: " << roomID << endl;
@@ -192,7 +192,7 @@ void launchApp() {
 
 		case 3203: {
 
-			outFile.open("3203.txt", ios::out);
+			outFile.open("3203.txt", ios::app);
 
 			if (line.find(roomID)) {
 				outFile << "RoomID: " << roomID << endl;
@@ -208,7 +208,7 @@ void launchApp() {
 
 		case 3204: {
 
-			outFile.open("3204.txt", ios::out);
+			outFile.open("3204.txt", ios::app);
 			if (line.find(roomID)) {
 				outFile << "RoomID: " << roomID << endl;
 				outFile << "ResMonth: " << r.month << endl;
