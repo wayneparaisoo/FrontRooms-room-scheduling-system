@@ -15,140 +15,145 @@ struct roomSchedule {
  
 // function to launch the scheduling management system
 void launchApp() {
-		cout<<"\n";
-		cout << "\t\t\t\t\t\t\t\t\tLaunching the Frontrooms Scheduling Management System..." << endl << endl;
+		cout << "Launching the Frontrooms Scheduling Management System..." << endl << endl;
 		
 		roomSchedule r;
 		ifstream inFile;
 
 
 		// welcome message
-		cout << "\t\t\t\t\t\t\t\t\t--------------------------------------------------------" << endl;
-		cout << "\t\t\t\t\t\t\t\t\tWelcome to the Frontrooms Scheduling Management System!" << endl;
-		cout << "\t\t\t\t\t\t\t\t\t--------------------------------------------------------" << endl << endl;
+		cout << "--------------------------------------------------------" << endl;
+		cout << "Welcome to the Frontrooms Scheduling Management System!" << endl;
+		cout << "--------------------------------------------------------" << endl << endl;
 
 		// prompt user for scheduling details
-		cout << "\t\t\tEnter the month you want to schedule (e.g., January): ";
+		cout << "Enter the month you want to schedule (e.g., January): ";
 		cin >> r.month;
-		cout << "\t\t\tEnter the day you want to schedule (e.g., 15): ";
+		cout << "Enter the day you want to schedule (e.g., 15): ";
 		cin >> r.day;
-		cout << "\t\t\tEnter the year you want to schedule (e.g., 2025): ";
+		cout << "Enter the year you want to schedule (e.g., 2025): ";
 		cin >> r.year;
+		cout << "Enter the time that you want your schedule to start (e.g., 7:30AM): ";
+		cin >> r.startTime;
+		cout << "Enter the time that you want your schedule to end (e.g., 10:30AM): ";
+		cin >> r.endTime;
+		cout << endl;
+		cout << "The rooms/room available from " << r.startTime << " - " << r.endTime << " are:" << "\n \n";
 
 		// read through the file and check for matching schedules
 
 		string line;
 		int matchCount = 0;
+			
 
-		// 
 		inFile.open("3201.txt");
 		while (getline(inFile, line)) {
 
 			// check for month, day, and year matches
-			if (line.find(r.month) != string::npos) {
-
+			if (line.find(r.startTime) != string::npos) {
+				matchCount++;
 			}
-			else {
+			if (line.find(r.endTime) != string::npos) {
+				matchCount++;
+			}
+			if (line.find(r.month) != string::npos) {
 				matchCount++;
 			}
 			if (line.find(r.day) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 			if (line.find(r.year) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 		}
+		if (matchCount <= 3) {
+			cout << "Room 3201 is available." << endl;
+		}
 		inFile.close();
 
+		matchCount = 0;
 		inFile.open("3202.txt");
 		while (getline(inFile, line)) {
 
 			// check for month, day, and year matches
-			if (line.find(r.month) != string::npos) {
-
+			if (line.find(r.startTime) != string::npos) {
+				matchCount++;
 			}
-			else {
+			if (line.find(r.endTime) != string::npos) {
+				matchCount++;
+			}
+			if (line.find(r.month) != string::npos) {
 				matchCount++;
 			}
 			if (line.find(r.day) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 			if (line.find(r.year) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 		}
+		if (matchCount <= 3) {
+			cout << "Room 3202 is available." << endl;
+		}
 		inFile.close();
 
+		matchCount = 0;
 		inFile.open("3203.txt");
 		while (getline(inFile, line)) {
 
 			// check for month, day, and year matches
-			if (line.find(r.month) != string::npos) {
-
+			if (line.find(r.startTime) != string::npos) {
+				matchCount++;
 			}
-			else {
+			if (line.find(r.endTime) != string::npos) {
+				matchCount++;
+			}
+			if (line.find(r.month) != string::npos) {
 				matchCount++;
 			}
 			if (line.find(r.day) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 			if (line.find(r.year) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 		}
+		if (matchCount <= 3) {
+			cout << "Room 3203 is available." << endl;
+		}
 		inFile.close();
 
+		matchCount = 0;
 		inFile.open("3204.txt");
 		while (getline(inFile, line)) {
 
 			// check for month, day, and year matches
-			if (line.find(r.month) != string::npos) {
-
+			if (line.find(r.startTime) != string::npos) {
+				matchCount++;
 			}
-			else {
+			if (line.find(r.endTime) != string::npos) {
+				matchCount++;
+			}
+			if (line.find(r.month) != string::npos) {
 				matchCount++;
 			}
 			if (line.find(r.day) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 			if (line.find(r.year) != string::npos) {
-
-			}
-			else {
 				matchCount++;
 			}
 		}
-
-
+		if (matchCount <= 3) {
+			cout << "Room 3204 is available." << endl;
+		}
 		inFile.close();
 
 
 		int roomID = 0;
 		ofstream outFile;
-		
-		cout<<"\n\n";
-		cout << "\t\t\tPlease enter the room you desire to use: ";
+
+		cout << "Please enter the room you desire to use: ";
 		cin >> roomID;
 
 		switch (roomID) {
