@@ -15,7 +15,7 @@ struct userCredentials {
 
 // function to handle user login
 void loginUser() {
-
+     
     // create an instance of userCredentials to store input
     userCredentials u;
 
@@ -28,13 +28,13 @@ void loginUser() {
     }
 
     // prompt user for their credentials
-    cout << "Please enter your Employee ID: ";
+    cout << "\t\t\tPlease enter your Employee ID: ";
     cin >> u.employeeID;
 
-    cout << "Please enter your username: ";
+    cout << "\t\t\tPlease enter your username: ";
     cin >> u.username;
 
-    cout << "Please enter your password: ";
+    cout << "\t\t\tPlease enter your password: ";
     cin >> u.password;
 
     // read through the file and check for matching credentials
@@ -60,10 +60,10 @@ void loginUser() {
     }
         // provide feedback based on the number of successful matches
         if (successCount < 3) {
-			cout << "Login unsuccessful. Please check your credentials." << endl;
+			cout << "\t\t\tLogin unsuccessful. Please check your credentials." << endl;
 		}
         else if (successCount == 3) {
-            cout << "Login successful. Welcome " << u.username << "!" << endl;
+            cout << "\t\t\tLogin successful. Welcome " << u.username << "!" << endl;
 			launchApp();
 		}
 

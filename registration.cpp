@@ -25,13 +25,13 @@ void registerUser() {
     }
 
     // prompt user for registration details
-    cout << "Please enter your Employee ID: ";
+    cout << "\t\t\tPlease enter your Employee ID: ";
     cin >> u.employeeID;
 
-    cout << "Please enter your username: ";
+    cout << "\t\t\tPlease enter your username: ";
     cin >> u.username;
 
-    cout << "Please enter your password: ";
+    cout << "\t\t\tPlease enter your password: ";
     cin >> u.password;
 
     // check for existing Employee ID or username
@@ -41,14 +41,14 @@ void registerUser() {
     while (getline(inFile, line)) {
         // check for existing Employee ID or username
         if (line.find(u.employeeID) != string::npos) {
-            cout << "Employee ID already exists. Please contact admin." << endl;
+            cout << "\t\t\t\t\t\t\tEmployee ID already exists. Please contact admin." << endl;
 			count++;
             inFile.close();
         }
 
         // check for existing username
         if (line.find(u.username) != string::npos) {
-            cout << "Username already exists. Please choose a different username." << endl;
+            cout << "\t\t\t\t\t\t\tUsername already exists. Please choose a different username." << endl;
             count++;
             inFile.close();
         }

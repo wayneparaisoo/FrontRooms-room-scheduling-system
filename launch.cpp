@@ -15,23 +15,24 @@ struct roomSchedule {
  
 // function to launch the scheduling management system
 void launchApp() {
-		cout << "Launching the Frontrooms Scheduling Management System..." << endl << endl;
+		cout<<"\n";
+		cout << "\t\t\t\t\t\t\t\t\tLaunching the Frontrooms Scheduling Management System..." << endl << endl;
 		
 		roomSchedule r;
 		ifstream inFile;
 
 
 		// welcome message
-		cout << "--------------------------------------------------------" << endl;
-		cout << "Welcome to the Frontrooms Scheduling Management System!" << endl;
-		cout << "--------------------------------------------------------" << endl << endl;
+		cout << "\t\t\t\t\t\t\t\t\t--------------------------------------------------------" << endl;
+		cout << "\t\t\t\t\t\t\t\t\tWelcome to the Frontrooms Scheduling Management System!" << endl;
+		cout << "\t\t\t\t\t\t\t\t\t--------------------------------------------------------" << endl << endl;
 
 		// prompt user for scheduling details
-		cout << "Enter the month you want to schedule (e.g., January): ";
+		cout << "\t\t\tEnter the month you want to schedule (e.g., January): ";
 		cin >> r.month;
-		cout << "Enter the day you want to schedule (e.g., 15): ";
+		cout << "\t\t\tEnter the day you want to schedule (e.g., 15): ";
 		cin >> r.day;
-		cout << "Enter the year you want to schedule (e.g., 2025): ";
+		cout << "\t\t\tEnter the year you want to schedule (e.g., 2025): ";
 		cin >> r.year;
 
 		// read through the file and check for matching schedules
@@ -145,8 +146,9 @@ void launchApp() {
 
 		int roomID = 0;
 		ofstream outFile;
-
-		cout << "Please enter the room you desire to use: ";
+		
+		cout<<"\n\n";
+		cout << "\t\t\tPlease enter the room you desire to use: ";
 		cin >> roomID;
 
 		switch (roomID) {
