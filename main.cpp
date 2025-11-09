@@ -7,6 +7,8 @@
 #include "login.h"          // Custom header for login-related functions
 #include "forgotuser.h"
 #include "launch.h"         // Custom header for launch-related functions
+#include <windows.h>
+#include <stdlib.h>
 using namespace std;
 
 // Structure to store user credentials such as EmployeeID, username, and password
@@ -24,10 +26,17 @@ void registerUser();    // Handles user registration
 void forgotUser();      // Handles password recovery
 
 int main() {
-
+	
+	
     // Variable to store user's menu choice
     int c = 0;
-
+    HANDLE h= GetStdHandle(STD_OUTPUT_HANDLE);
+    
+    
+    system("cls");
+	
+	SetConsoleTextAttribute(h,3);
+	
     cout << setw(127.5)<<		"  _____                _                                 \n";
     cout << setw(127.5)<<		" |  ___| __ ___  _ __ | |_ _ __ ___   ___  _ __ ___  ___ \n";
     cout << setw(127.5)<<		" | |_ | '__/ _ \\| '_ \\| __| '__/ _ \\ / _ \\| '_ ` _ \\/ __|\n";
@@ -37,7 +46,8 @@ int main() {
 
     
 
-    	
+    SetConsoleTextAttribute(h,13);
+		
 	cout << setw(153)  <<"==========================================================================================================\n";
 	cout << setw(155.5) <<"                                  WELCOME TO THE LOGIN PAGE                                            \n";
 	cout << setw(153) <<"==========================================================================================================\n";	
@@ -45,6 +55,8 @@ int main() {
 	cout << setw(153) <<"==========================================================================================================\n";	
     cout << setw(101.5) <<"                                     MENU\n";
     cout << setw(153) <<"----------------------------------------------------------------------------------------------------------\n"<<endl<<endl;
+    SetConsoleTextAttribute(h,13);
+
     
     cout << setw(133) <<"        |------------------------------------------------------------|\n";
     cout << setw(133) <<"        |  Press 1  ->  LOG IN                                       |\n";
@@ -52,6 +64,7 @@ int main() {
     cout << setw(133) <<"        |  Press 3  ->  FORGOT PASSWORD                              |\n";
     cout << setw(133) <<"        |  Press 4  ->  EXIT                                         |\n";
     cout << setw(133) <<"        |------------------------------------------------------------|\n"<<endl<<endl;
+    SetConsoleTextAttribute(h,7);
     
 
    // loop until the user inputs 4
@@ -59,8 +72,9 @@ int main() {
 
         // Ask the user to enter their choice
         cout << setw(100) << " Please enter your choice :   ";
+        SetConsoleTextAttribute(h,3);
         cin >> c;
-        cout<<"\n";
+        
 
         // Switch statement to handle the user’s choice
         switch (c)
@@ -77,6 +91,10 @@ int main() {
         case 4:
             cout << "\t\t\tThankyou!\n\n";  // Exit option
             break;
+        default:
+        	cout<<"\t\t\tInvalid Choice, Please try again.\n";
+        	system ("pause");
+        	break;
 
 
         }
