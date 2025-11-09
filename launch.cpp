@@ -66,7 +66,7 @@ void launchApp() {
 				matchCount++;
 			}
 		}
-		if (matchCount <= 3) {
+		if (matchCount <= 4) {
 			cout << "Room 3201 is available." << endl;
 		}
 		inFile.close();
@@ -92,7 +92,7 @@ void launchApp() {
 				matchCount++;
 			}
 		}
-		if (matchCount <= 3) {
+		if (matchCount <= 4) {
 			cout << "Room 3202 is available." << endl;
 		}
 		inFile.close();
@@ -118,7 +118,7 @@ void launchApp() {
 				matchCount++;
 			}
 		}
-		if (matchCount <= 3) {
+		if (matchCount <= 4) {
 			cout << "Room 3203 is available." << endl;
 		}
 		inFile.close();
@@ -144,7 +144,7 @@ void launchApp() {
 				matchCount++;
 			}
 		}
-		if (matchCount <= 3) {
+		if (matchCount <= 4) {
 			cout << "Room 3204 is available." << endl;
 		}
 		inFile.close();
@@ -169,8 +169,10 @@ void launchApp() {
 				outFile << "ResYear: " << r.year << endl;
 				outFile << "StartTime: " << r.startTime << endl;
 				outFile << "EndTime: " << r.endTime << endl;
+				outFile << endl;
 			}
 			outFile.close();
+			cout << "Reserved the room " << roomID << " successfully." << endl;
 		} break;
 
 
@@ -185,8 +187,10 @@ void launchApp() {
 				outFile << "ResYear: " << r.year << endl;
 				outFile << "StartTime: " << r.startTime << endl;
 				outFile << "EndTime: " << r.endTime << endl;
+				outFile << endl;
 			}
 			outFile.close();
+			cout << "Reserved the room " << roomID << " successfully." << endl;
 		} break;
 
 
@@ -201,8 +205,10 @@ void launchApp() {
 				outFile << "ResYear: " << r.year << endl;
 				outFile << "StartTime: " << r.startTime << endl;
 				outFile << "EndTime: " << r.endTime << endl;
+				outFile << endl;
 			}
 			outFile.close();
+			cout << "Reserved the room " << roomID << " successfully." << endl;
 		} break;
 
 
@@ -216,8 +222,10 @@ void launchApp() {
 				outFile << "ResYear: " << r.year << endl;
 				outFile << "StartTime: " << r.startTime << endl;
 				outFile << "EndTime: " << r.endTime << endl;
+				outFile << endl;
 			}
 			outFile.close();
+			cout << "Reserved the room " << roomID << " successfully." << endl;
 		} break;
 
 		}
