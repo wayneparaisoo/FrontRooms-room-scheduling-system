@@ -58,6 +58,7 @@ void loginUser() {
             inFile.close();
         }
     }
+	
         // provide feedback based on the number of successful matches
         if (successCount < 3) {
 			cout << "\t\t\tLogin unsuccessful. Please check your credentials." << endl;

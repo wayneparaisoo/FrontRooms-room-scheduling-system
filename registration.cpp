@@ -43,14 +43,12 @@ void registerUser() {
         if (line.find(u.employeeID) != string::npos) {
             cout << "\t\t\t\t\t\t\tEmployee ID already exists. Please contact admin." << endl;
 			count++;
-            inFile.close();
         }
 
         // check for existing username
         if (line.find(u.username) != string::npos) {
             cout << "\t\t\t\t\t\t\tUsername already exists. Please choose a different username." << endl;
             count++;
-            inFile.close();
         }
     }
 

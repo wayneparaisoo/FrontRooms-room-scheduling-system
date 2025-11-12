@@ -1,14 +1,12 @@
 // Include necessary libraries for file handling, input/output, and string manipulation
-#include <fstream>          // For reading and writing files
 #include <iostream>         // For input and output (cin, cout)
-#include <string>           // For using string data type
 #include <iomanip>          // For formatted output
+#include <windows.h>
+#include <stdlib.h>
 #include "registration.h"   // Custom header for registration-related functions
 #include "login.h"          // Custom header for login-related functions
 #include "forgotuser.h"
 #include "launch.h"         // Custom header for launch-related functions
-#include <windows.h>
-#include <stdlib.h>
 using namespace std;
 
 // Structure to store user credentials such as EmployeeID, username, and password

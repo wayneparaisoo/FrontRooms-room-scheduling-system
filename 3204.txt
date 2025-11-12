@@ -1,6 +1,0 @@
-RoomID: 3204
-ResMonth: 
-ResDay: 
-ResYear: 
-StartTime: 
-EndTime: 
